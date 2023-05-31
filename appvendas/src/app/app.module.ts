@@ -9,6 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component';
 
 
 
@@ -17,7 +18,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    NaoEncontradaComponent
+    NaoEncontradaComponent,
+    BarraPesquisaComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +27,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FormsModule,
     MatSnackBarModule,
     BrowserAnimationsModule,
-    
+    FormsModule
    
   ],
   providers: [],

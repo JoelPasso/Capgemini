@@ -8,5 +8,8 @@ import { CarrinhoService } from '../carrinho.service';
 })
 export class HeaderComponent {
 
-  constructor(public carrinhoService: CarrinhoService){}
+  constructor(
+    public carrinhoService: CarrinhoService,
+     
+    ){}
 }
